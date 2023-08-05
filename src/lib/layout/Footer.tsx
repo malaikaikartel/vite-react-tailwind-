@@ -4,8 +4,8 @@ const Footer = () => {
       <div className="flex">
         <p className="text-xs">
           {new Date().getFullYear()} -{' '}
-          <a href="https://sznm.dev" target="_blank" rel="noopener noreferrer">
-            sznm.dev
+          <a href="https://redframe.tech" target="_blank" rel="noopener noreferrer">
+            Redframe
           </a>
         </p>
       </div>
