@@ -1,6 +1,7 @@
 import React, { Component  } from 'react'
 
-class MyLeaderBoardAd extends Component {
+
+const MyLeaderBoardAd = () => (
 
     componentDidMount() {
      (window.adsbygoogle = window.adsbygoogle || []).push({})
@@ -15,6 +16,6 @@ class MyLeaderBoardAd extends Component {
                 data-ad-slot = "6486641123"></ins>
         </div>)
     }
-}
+)
 
 export default MyLeaderBoardAd
